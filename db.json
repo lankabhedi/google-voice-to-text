@@ -1,5 +1,7 @@
 {
     "functions": {
-       "decode": 1,
+       "name": {
+          "morse": 1
+       }
     }
 }
