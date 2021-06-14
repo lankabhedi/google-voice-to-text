@@ -2,7 +2,7 @@ from flask import Flask, jsonify, render_template, request
 from boltiot import Bolt
 import time as t
 
-app = Flask(__name__, template_folder="./templates")
+app = Flask(__name__, template_folder="templates/")
 
 @app.route('/', methods = ['GET','POST'])
 def mainpage():
