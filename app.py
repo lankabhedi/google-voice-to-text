@@ -6,8 +6,6 @@ app = Flask(__name__, template_folder="templates/")
 
 @app.route('/', methods = ['GET','POST'])
 def mainpage():
-    return "Hello World!"
-    """
     if request.method == 'POST':
         device_id = request.form['device_id']
         api_key = request.form['api_key']
@@ -21,8 +19,7 @@ def mainpage():
             return(render_template('success.html',morsed = morsed))
         else:
             return((render_template('deviceoffline.html')))
-            """
-
+            
 
 
 
