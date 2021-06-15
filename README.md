@@ -1,4 +1,4 @@
-# Morser
+# <img width="50px" src=https://user-images.githubusercontent.com/50140975/121981758-df09df80-cdab-11eb-9949-582ec09f2014.png> Morser
 ### Text/Voice to Morse Signals in Python 3
 
 Making an Python Based API to convert human speech through Google Assistant into Morse Code using Bolt IoT Wi-Fi module and an API
