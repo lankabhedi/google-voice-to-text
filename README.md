@@ -1,14 +1,21 @@
-# Text/Voice to Morse Signals in Python 3
+# Morser
+### Text/Voice to Morse Signals in Python 3
 
 Making an Python Based API to convert human speech through Google Assistant into Morse Code using Bolt IoT Wi-Fi module and an API
+
+Application available on:
+
+<a href="https://morser-app.herokuapp.com/"><img width=50px src=https://user-images.githubusercontent.com/50140975/121981035-9f8ec380-cdaa-11eb-87ab-c75d764ab6e0.png>
+</a>
+
 
 You need to put your API requests in the following format.
 
 ```html
-http://<website url>/api?api_key=5bbf44a6&device_id=BOLT135&message=<your message>
+http://morser-app.herokuapp.com/api?api_key=5bbf44a6&device_id=BOLT135&message=<your message>
 ```
 
-When the code is successfully executed, you will get the following response.
+When the code is successfully executed, you will get the following JSON response.
 
 ```json
 {
@@ -32,3 +39,8 @@ PS. Software requirements are metioned in the requirements.txt file
 ![image](https://user-images.githubusercontent.com/50140975/121958729-963d3100-cd81-11eb-88c0-64bd8aff6146.png)
 
 
+<h3>Project is licensed under MIT license. Basically, just give me due credits if you reuse my code.</h3>
+
+
+
+<h4>Special thanks to Geeks-for-Geeks and Stack Overflow.</h4>
