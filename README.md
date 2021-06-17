@@ -8,6 +8,10 @@ Application available on:
 <a href="https://morser-app.herokuapp.com/"><img width=50px src=https://user-images.githubusercontent.com/50140975/121981035-9f8ec380-cdaa-11eb-87ab-c75d764ab6e0.png>
 </a>
 
+Project documentation on: 
+
+<a href="https://www.hackster.io/lankabhedi/morser-text-voice-morse-signal-converter-and-transmitter-8fdb28#toc-code-for-command-line-applications-4"><img width=50px src=https://i.ibb.co/yVRVV6h/hackster-logo-squared-e-KTHXabz-Ay.jpg></a> 
+
 
 You need to put your API requests in the following format.
 
@@ -39,7 +43,7 @@ PS. Software requirements are metioned in the requirements.txt file
 ![image](https://user-images.githubusercontent.com/50140975/121958729-963d3100-cd81-11eb-88c0-64bd8aff6146.png)
 
 
-<h3>Project is licensed under MIT license. Basically, just give me due credits if you reuse my code.</h3>
+<h3>Project is licensed under MIT license. Basically, just give me due credits if you reuse this.</h3>
 
 
 
