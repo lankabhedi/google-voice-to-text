@@ -1,5 +1,4 @@
 from flask import Flask, jsonify, render_template, request
-from flask_socketio import SocketIO
 from boltiot import Bolt
 import time as t
 
@@ -127,6 +126,5 @@ def morse(message, api_key, device_id):
 
 
 if __name__ == '__main__':
-    socketio = SocketIO(app)
-    socketio.run(app)
+    app.run()
 
